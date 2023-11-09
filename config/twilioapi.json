@@ -1,0 +1,7 @@
+{
+    "accountSid": "$YOUR_ACCOUNT_SID",
+    "apiKey": "$YOUR_API_KEY",
+    "apiSecret": "$YOUR_API_SECRET7",
+    "testToken": "$YOUR_TEST_TOKEN",
+    "authToken": "$YOUR_AUTH_TOKEN"
+}

@@ -1,0 +1,123 @@
+.storemap-map {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.storemap-group {
+    position: absolute;
+    box-sizing: border-box;
+}
+
+
+
+.storemap-aisle {
+    position: absolute;
+    box-sizing: border-box;
+}
+
+.storemap-aisle-shelf {
+    position: absolute;
+    background-color: #ffffff;
+    border: solid 1px #C9CACB;
+}
+
+.storemap-aisle-label {
+    width: 100%;
+    position: absolute;
+    text-align: right;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.6em;
+    line-height: 1em;
+    color: #838796;
+}
+
+.storemap-aisle.active .storemap-aisle-shelf {
+    background-color: rgb(255, 42, 42);
+    cursor:pointer;
+}
+
+
+.storemap-group-orientation-0 .storemap-aisle-shelf {
+    width: 100%;
+    height: 50%;
+}
+
+.storemap-group-orientation-1 .storemap-aisle-shelf {
+    width: 50%;
+    height: 100%;
+}
+
+.storemap-group-alternate.storemap-group-orientation-0.storemap-group-wall-0 .storemap-aisle:nth-child(odd),
+.storemap-group-alternate.storemap-group-orientation-0:not(.storemap-group-wall-0) .storemap-aisle:nth-child(even) {
+    .storemap-aisle-shelf {
+        top: 50%;
+    }
+
+    .storemap-aisle-label {
+        bottom: 50%;
+    }
+}
+
+.storemap-group-alternate.storemap-group-orientation-0.storemap-group-wall-0 .storemap-aisle:nth-child(even),
+.storemap-group-alternate.storemap-group-orientation-0:not(.storemap-group-wall-0) .storemap-aisle:nth-child(odd) {
+    .storemap-aisle-shelf {
+        bottom: 50%;
+    }
+
+    .storemap-aisle-label {
+        top: 50%;
+    }
+}
+
+/* Para orientation 1 */
+.storemap-group-alternate.storemap-group-orientation-1.storemap-group-wall-1 .storemap-aisle:nth-child(odd),
+.storemap-group-alternate.storemap-group-orientation-1:not(.storemap-group-wall-1) .storemap-aisle:nth-child(even) {
+    .storemap-aisle-shelf {
+        right: 0;
+    }
+
+    .storemap-aisle-label {
+        top:6px;
+        right: calc(50% - 5px);
+    }
+}
+
+.storemap-group-alternate.storemap-group-orientation-1.storemap-group-wall-1 .storemap-aisle:nth-child(even),
+.storemap-group-alternate.storemap-group-orientation-1:not(.storemap-group-wall-1) .storemap-aisle:nth-child(odd) {
+    .storemap-aisle-shelf {
+        right: 50%;
+    }
+
+    .storemap-aisle-label {
+        right: -5px;
+        top:6px;
+    }
+}
+
+.storemap-group-orientation-1 .storemap-aisle-label {
+    transform: rotate(-90deg);
+}
+
+
+.animate-color-change {
+    background-color: rgb(255, 42, 42);
+    animation-name: colorChange;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    animation-direction:normal;
+}
+
+@keyframes colorChange {
+    0% {
+        background-color: rgb(255, 42, 42);
+    }
+
+    50% {
+        background-color: rgb(0, 0, 0);
+    }
+
+    100% {
+        background-color: rgb(255, 42, 42);
+    }
+}

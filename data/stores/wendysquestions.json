@@ -1,0 +1,360 @@
+[
+    {
+        "sentence": "What are your burger options?",
+        "category": "menu"
+    },
+    {
+        "sentence": "Do you have any vegetarian burgers?",
+        "category": "menu"
+    },
+    {
+        "sentence": "I'd like a cheeseburger.",
+        "category": "order"
+    },
+    {
+        "sentence": "What sides do you offer?",
+        "category": "menu"
+    },
+    {
+        "sentence": "Can I have a large fries and a medium Coke, please?",
+        "category": "order"
+    },
+    {
+        "sentence": "Do you have any chicken sandwiches?",
+        "category": "menu"
+    },
+    {
+        "sentence": "What are your milkshake flavors?",
+        "category": "menu"
+    },
+    {
+        "sentence": "I want a chicken nugget meal with a chocolate milkshake.",
+        "category": "order"
+    },
+    {
+        "sentence": "Can I have a salad with grilled chicken?",
+        "category": "order"
+    },
+    {
+        "sentence": "Do you serve breakfast?",
+        "category": "menu"
+    },
+    {
+        "sentence": "I'll take a bacon, egg, and cheese biscuit.",
+        "category": "order"
+    },
+    {
+        "sentence": "Can I get a kids' meal with chicken nuggets?",
+        "category": "order"
+    },
+    {
+        "sentence": "What desserts do you have?",
+        "category": "menu"
+    },
+    {
+        "sentence": "Do you have any spicy chicken sandwiches?",
+        "category": "menu"
+    },
+    {
+        "sentence": "What's your most popular item?",
+        "category": "menu"
+    },
+    {
+        "sentence": "What size options do you have for drinks?",
+        "category": "menu"
+    },
+    {
+        "sentence": "Can I get a double cheeseburger with no onions?",
+        "category": "order"
+    },
+    {
+        "sentence": "May I please order the Baconator combo?",
+        "category": "order"
+    },
+    {
+        "sentence": "Can I have a Dave's Single burger with fries?",
+        "category": "order"
+    },
+    {
+        "sentence": "I'd like a Classic Chicken Sandwich, please.",
+        "category": "order"
+    },
+    {
+        "sentence": "Do you have any vegetarian options?",
+        "category": "menu"
+    },
+    {
+        "sentence": "Can I get a large Coke with my order?",
+        "category": "order"
+    },
+    {
+        "sentence": "What options do you have on the Wendy's menu?",
+        "category": "menu"
+    },
+    {
+        "sentence": "Can you tell me about the different items available on the Wendy's menu?",
+        "category": "menu"
+    },
+    {
+        "sentence": "I'm curious to know what's on the Wendy's menu. Could you provide some details?",
+        "category": "menu"
+    },
+    {
+        "sentence": "What are the food choices at Wendy's? I'd like to explore the menu.",
+        "category": "menu"
+    },
+    {
+        "sentence": "Could you give me an overview of the menu options at Wendy's?",
+        "category": "menu"
+    },
+    {
+        "sentence": "I'm interested in trying out Wendy's. Can you give me some information about their menu?",
+        "category": "menu"
+    },
+    {
+        "sentence": "What kind of dishes can I find on the Wendy's menu?",
+        "category": "menu"
+    },
+    {
+        "sentence": "Do you have any recommendations from the Wendy's menu?",
+        "category": "menu"
+    },
+    {
+        "sentence": "I'm looking for something specific. Could you guide me through the Wendy's menu?",
+        "category": "menu"
+    },
+    {
+        "sentence": "Can you provide a breakdown of the menu categories and items at Wendy's?",
+        "category": "menu"
+    },
+    {
+        "sentence": "What beverage options do you have available at Wendy's?",
+        "category": "menu"
+    },
+    {
+        "sentence": "Could you tell me about the different burger choices on the Wendy's menu?",
+        "category": "menu"
+    },
+    {
+        "sentence": "What combos do you offer at Wendy's?",
+        "category": "menu"
+    },
+    {
+        "sentence": "I'm curious about the variety of beverages you serve at Wendy's. Can you provide some details?",
+        "category": "menu"
+    },
+    {
+        "sentence": "Can you recommend any signature burgers from the Wendy's menu?",
+        "category": "menu"
+    },
+    {
+        "sentence": "Are there any special combo deals or promotions available at Wendy's?",
+        "category": "menu"
+    },
+    {
+        "sentence": "I'm looking for a refreshing beverage option. What would you suggest from the Wendy's menu?",
+        "category": "menu"
+    },
+    {
+        "sentence": "What are the different types of burgers available at Wendy's?",
+        "category": "menu"
+    },
+    {
+        "sentence": "Could you give me some information about the combo meals at Wendy's? I'm interested in trying one.",
+        "category": "menu"
+    },
+    {
+        "sentence": "I'd like to know more about the beverage selections, burger options, and combo deals at Wendy's.",
+        "category": "menu"
+    },
+    {
+        "sentence": "What's the number of stores that wendy's have?",
+        "category": "other"
+    },
+    {
+        "sentence": "Is wendy's a supermarket?",
+        "category": "other"
+    },
+    {
+        "sentence": "What wendy's mean?",
+        "category": "other"
+    },
+    {
+        "sentence": "Is wendy's a superhero?",
+        "category": "other"
+    },
+    {
+        "sentence": "Is wendy's a european truck?",
+        "category": "other"
+    },
+    {
+        "sentence": "appears wendy's in super smash bros ultimate?",
+        "category": "other"
+    },
+
+
+
+    {
+        "sentence": "Burger combo with a small fry and a small soda",
+        "category" : "order-create"
+    },
+    {
+        "sentence": "Double stack bacon cheeseburger and large French fries",
+        "category" : "order-create"
+    },
+    {
+        "sentence": "remove the cookie from my order",
+        "category" : "order-delete"
+    },
+    {
+        "sentence": "Spicy chicken sandwich with a small salad and a bottled water"
+    },
+    {
+        "sentence": "Four piece nuggets with a small fry and a small soft drink"
+    },
+    {
+        "sentence": "Baconator with a medium onion rings and a diet Coke"
+    },
+    {
+        "sentence": "A classic chicken sandwich, no mayo, with a small fry and a side of ranch"
+    },
+    {
+        "sentence": "Jalapeño Cheeseburger with extra pickles, and a large Sprite"
+    },
+    {
+        "sentence": "Dave's SingleTM cheese burger, no onions, with large fries and a medium Coca-Cola"
+    },
+    {
+        "sentence": "Double Baconator with extra bacon and a side of nacho cheese"
+    },
+    {
+        "sentence": "Bacon cheeseburger with a small fry and a regular Coke with a free shareable side of chili"
+    },
+    {
+        "sentence": "10 piece nuggets with a small order of cheese sauce"
+    },
+    {
+        "sentence": "Biggie Bag with small fries and a medium Sprite"
+    },
+    {
+        "sentence": "Ultimate Chicken Grill with a side salad and a large sweet tea"
+    },
+    {
+        "sentence": "2-for-$5 deal – a Bacon Cheeseburger and a Double Stack with medium fries and two medium Cokes"
+    },
+    {
+        "sentence": "Baconator meal with a medium onion rings and an iced tea"
+    },
+    {
+        "sentence": "Jr. Bacon Cheeseburger with a small fry and a frozen lemonade"
+    },
+    {
+        "sentence": "Bacon Jalapeno Chicken Sandwich with a side of mac & cheese"
+    },
+    {
+        "sentence": "Spicy Chicken Caesar Wrap with small fries and a medium soft drink"
+    },
+    {
+        "sentence": "Grand Slamwich meal with a side of chili and a medium Sprite"
+    },
+    {
+        "sentence": "Grilled Chicken Go Wrap with a large french fry and a large fountain drink"
+    },
+    {
+        "sentence": "Crispy Chicken wrap with a Baja Salad and a bottled water"
+    },
+    {
+        "sentence": "Bacon Cheeseburger Deluxe with extra bacon, large fries and a medium coffee"
+    },
+    {
+        "sentence": "Son of Baconator with a small lemonade and a side of ranch"
+    },
+    {
+        "sentence": "Spicy Chicken Nuggets with a side of BBQ sauce and a small lemonade"
+    },
+    {
+        "sentence": "10 pc nugget combo with a small fry and a cold lemonade"
+    },
+    {
+        "sentence": "Double Bacon Cheeseburger and a side of mac & cheese"
+    },
+    {
+        "sentence": "Grilled Chicken Sandwich meal with a large fries and a medium milkshake"
+    },
+    {
+        "sentence": "Grilled Asiago Ranch Chicken Club with a small fry and a small sweet tea"
+    },
+    {
+        "sentence": "2 for $6.00 deal – a Spicy Chicken Sandwich and a Double Stack with medium fries and two medium Cokes"
+    },
+    {
+        "sentence": "Double Stack with extra tomato, small onion rings and a bottle of water"
+    },
+    {
+        "sentence": "Baconator Supreme with a large fry and a large Pepsi"
+    },
+    {
+        "sentence": "S’Awesome Bacon Cheeseburger Deluxe with a small fry and a regular Coke"
+    },
+    {
+        "sentence": "Grilled Asiago Ranch Chicken Club meal with a side garden salad"
+    },
+    {
+        "sentence": "i want to know the combo's options"
+    },
+    {
+        "sentence": "i prefer the onion instead of fries"
+    },
+    {
+        "sentence": "add a lemonade"
+    },
+    {
+        "sentence": "add a cookie"
+    },
+   
+    {
+        "sentence": "i want to know the combo's options"
+    },
+    {
+        "sentence": "i prefer the onion instead of fries"
+    },
+    {
+        "sentence": "add a lemonade"
+    },
+    {
+        "sentence": "add a cookie"
+    },
+    {
+        "sentence": "remove the cookie from my order"
+    },
+    {
+        "sentence": "Let me get a large fries instead of the regular"
+    },
+    {
+        "sentence": "I want to add fries to my order"
+    },
+    {
+        "sentence": "Can you substitute the coffee for a milkshake"
+    },
+    {
+        "sentence": "I'd like to change my order to an extra large"
+    },
+    {
+        "sentence": "What types of sauces do you have"
+    },
+    {
+        "sentence": "Can you change my burger to a veggie burger"
+    },
+    {
+        "sentence": "Can I have extra lettuce and tomato on my sandwich"
+    },
+    {
+        "sentence": "Can I upgrade my fries to a large"
+    },
+    {
+        "sentence": "Do you offer gluten free options"
+    },
+    {
+        "sentence": "Can I get extra mayo on my burger"
+    }
+]

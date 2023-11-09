@@ -1,0 +1,39 @@
+{
+  "name": "retailspeaker",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://ErnestoTV:4T3rHg9VWVGj3twXmbpg@bitbucket.org/ErnestoTV/retailspeaker.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/ErnestoTV/retailspeaker#readme",
+  "dependencies": {
+    "@google-cloud/text-to-speech": "^4.2.2",
+    "axios": "^1.3.4",
+    "body-parser": "^1.20.2",
+    "cookie-parser": "^1.4.6",
+    "csv-parser": "^3.0.0",
+    "csvtojson": "^2.0.10",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "express-fileupload": "^1.4.0",
+    "express-session": "^1.17.3",
+    "form-data": "^4.0.0",
+    "helmet": "^6.0.1",
+    "jsonrepair": "^3.1.0",
+    "mysql": "^2.18.1",
+    "mysql2": "^3.2.0",
+    "node-localstorage": "^2.2.1",
+    "openai": "^3.2.1",
+    "readline": "^1.3.0",
+    "ssl-checker": "^2.0.8",
+    "twilio": "^4.8.0",
+    "yargs": "^17.7.1"
+  }
+}

@@ -1,0 +1,82 @@
+body{
+    position: absolute;
+    top: 0 ;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    font-family: sans-serif;
+}
+#map-container{
+    position: absolute;
+    width: calc(100% - 40px);
+    height: calc(100% - 40px);
+    top:20px;
+    left: 20px;
+}
+.retailmap{
+    position: absolute;
+    border: solid 1px #888;
+    width: 100%;
+    height: 90%;
+}
+
+.retailmap-section{
+    position: absolute;
+    background-color: rgba(200,200,200,0.8);
+    box-sizing: border-box;
+    border: solid 1px #f8f8f8;
+    text-align: center;
+    font-size: 0.8rem;
+}
+.retailmap-section-name{
+    position: absolute;
+    top:50%;
+    left:0;
+    width: 100%;
+    transform: translateY(-50%);
+    overflow-wrap: break-word;
+    hyphens:auto;
+}
+.retailmap-section-content{
+    overflow-y: auto;
+    height: 100%;
+    width: 100%;
+}
+.retailmap-section-content ul{
+    padding-left: 0;
+    text-align: left;
+    list-style: none;
+}
+.retailmap-section-content li{
+    padding-left: 2em;
+    font-size: 0.95em;
+}
+.retailmap-section-content li::before{
+    content: '\2022';
+    position: absolute;
+    left: 0;
+}
+.retailmap-section.active{
+    background: #CC0000;
+    color:#ffffff;
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
+    cursor: pointer;
+}
+
+.retailmap-section-checkouts{
+    font-size: 2em;
+    line-height: 100%;
+    background-color: #EEE;
+}
+.retailmap-section-entrance{
+    font-size: 2em;
+    line-height: 100%;
+    background-color: transparent;
+    border:none
+}
+@media (orientation: portrait) {
+    .retailmap-section-name{
+
+        font-size: 1.1em;
+    }
+}
